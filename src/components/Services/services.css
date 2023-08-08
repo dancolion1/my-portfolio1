@@ -1,0 +1,168 @@
+.services {
+    padding: 0 3rem;
+    display: flex;
+    height: 70vh;
+    gap: 4rem;
+    margin-bottom: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 13rem;
+  }
+  .leftdiv {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+  }
+  .leftdiv > :nth-child(1) {
+    margin-top: 1rem;
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .leftdiv > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .leftdiv > :nth-child(3) {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 100;
+    width: 28rem;
+    padding-bottom: 10px;
+  }
+  .leftdiv > :nth-child(4) {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 100;
+    width: 28rem;
+    padding-bottom: 10px;
+  }
+  .leftdiv > :nth-child(5) {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 100;
+    width: 28rem;
+    padding-bottom: 10px;
+  }
+  .leftdiv > :nth-child(6) {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 100;
+    width: 28rem;
+    padding-bottom: 10px;
+  }
+  .leftdiv > :nth-child(7) {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 100;
+    width: 28rem;
+    padding-bottom: 10px;
+  }
+  .leftdiv > :nth-child(8) {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 100;
+    width: 28rem;
+  }
+  .s-button {
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .rightDiv{
+    margin-top: 1rem;
+    position: relative;
+  }
+  .rightDiv > * {
+    position: absolute;
+  }
+  .crd1{
+    left: 25rem;
+  }
+  .crd2{
+    left: 10rem;
+  }
+  .crd3{
+    left: 20.5rem;
+    top: 17.5rem;
+  }
+  @media only screen and (max-width: 698px) and (min-width: 360px) {
+    .services {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+    }
+  .leftdiv{
+    margin-top: 20rem;
+  }
+  .leftdiv > :nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .leftdiv > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2rem;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .leftdiv > :nth-child(3) {
+    font-size: 14px;
+    font-weight: 100;
+    width: fit-content;
+    text-align: justify;
+    padding-bottom: 3px;
+  }
+  .leftdiv > :nth-child(4) {
+  
+    font-size: 14px;
+    font-weight: 100;
+      width: fit-content;
+    text-align: justify;
+    padding-bottom: 3px;
+  }
+  .leftdiv > :nth-child(5) {
+    font-size: 14px;
+    font-weight: 100;
+    width: fit-content;
+    text-align: justify;
+    padding-bottom: 3px;
+  }
+  .leftdiv > :nth-child(6) {
+    
+    font-size: 14px;
+    font-weight: 100;
+      width: fit-content;
+    text-align: justify;
+    padding-bottom: 3px;
+  }
+  .leftdiv > :nth-child(7) {
+    
+    font-size: 14px;
+     width: fit-content;
+    text-align: justify;
+   padding-bottom: 3px;
+    
+  }
+  .leftdiv > :nth-child(8) {
+   
+    font-size: 14px;
+    font-weight: 100;
+     width: fit-content;
+    text-align: justify;
+   padding-bottom: 3px;
+  }
+  .rightDiv{
+    display: none;
+  }
+  
+  
+  }

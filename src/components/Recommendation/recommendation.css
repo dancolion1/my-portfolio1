@@ -1,0 +1,50 @@
+.wrapper{
+    margin: 4rem 0;
+    
+    text-align: center;
+     font-size: 3.5rem;
+    color: grey;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card img{
+    height: 150px;
+    object-fit: scale-down;
+}
+.card-group{
+    margin-top: 50px;
+    width: 100%;
+    margin: auto 10px;
+   
+}
+.card-title{
+    color: grey;
+    font-weight: 600;
+   
+}
+.card-text{
+    text-align: justify;
+}
+.card-body{
+    text-align: center;
+    color: grey;
+}
+.card-body>:nth-child(3){
+    text-align: center;
+}
+.card-body>:nth-child(4){
+    text-align: center;
+    color: blue;
+}
+.card{
+    padding: 10px;
+    border: 0.5px solid rgb(19, 17, 17);
+}
+	@media only screen and (max-width: 896px) and (min-width: 360px) {
+        .wrapper{
+            margin-top: -60%;
+        }
+        .card-body{
+            margin: auto;
+        }
+    }
